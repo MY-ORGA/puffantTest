@@ -1,0 +1,34 @@
+{
+  "name": "puffant-test",
+  "version": "1.0.0",
+  "description": "a test for puffant",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MY-ORGA/puffantTest.git"
+  },
+  "author": "王靖",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.2.0",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "react": "^15.0.2",
+    "react-dom": "^15.1.0",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "webpack": "^1.13.0"
+  },
+  "bugs": {
+    "url": "https://github.com/MY-ORGA/puffantTest/issues"
+  }
+}

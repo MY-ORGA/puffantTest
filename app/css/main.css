@@ -1,0 +1,32 @@
+.form {
+	width: 400px;
+	margin: 30px auto;
+}
+.form-item {
+	height: 50px;
+}
+.form-item label {
+	display: inline-block;
+	width: 80px;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+}
+.form-item input {
+	outline: none;
+	width: 300px;
+}
+.form-item span {
+	font-size: 12px;
+	color: rgba(123, 123, 123, 0.7);
+	display: block;
+	margin-left: 80px;
+}
+.form-item select {
+	width: 145px;
+	margin-right: 5px;
+}
+.submit {
+	width: 60px;
+	height: 30px;
+	margin-left: 150px;
+}
